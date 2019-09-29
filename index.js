@@ -35,6 +35,8 @@ module.exports = {
       {
         code: 100,
         ignoreRegExpLiterals: true,
+        ignoreComments: true,
+        ignoreUrls: true,
       },
     ],
     'comma-dangle': ['error', 'always-multiline'],
