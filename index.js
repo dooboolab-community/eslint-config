@@ -22,7 +22,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    indent: ['error', 2],
+    indent: ['error', 2, { SwitchCase: 1 }],
     'no-unused-vars': 0,
     'jsx-quotes': ['error', 'prefer-single'],
     // '@typescript-eslint/no-unused-vars': 'warn',
