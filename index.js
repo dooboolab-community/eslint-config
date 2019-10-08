@@ -28,12 +28,12 @@ module.exports = {
     // '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/interface-name-prefix': 0,
     'no-console': 'warn',
-    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     'react/jsx-uses-vars': [2],
+    curly: ['error', 'multi-line'],
     'max-len': [
       'error',
       {
-        code: 100,
+        code: 120,
         ignoreRegExpLiterals: true,
         ignoreComments: true,
         ignoreUrls: true,
@@ -62,4 +62,5 @@ module.exports = {
     ],
     'react/prop-types': 0,
   },
+  'generator-star-spacing': ['error', { before: false, after: true }],
 };
