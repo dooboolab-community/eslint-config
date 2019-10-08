@@ -4,6 +4,14 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/explicit-function-return-type': ['error'],
+      },
+    },
+  ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   settings: {
@@ -62,5 +70,6 @@ module.exports = {
     ],
     'react/prop-types': 0,
     'generator-star-spacing': ['error', { before: false, after: true }],
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
 };
