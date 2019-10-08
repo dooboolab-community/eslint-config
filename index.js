@@ -61,6 +61,6 @@ module.exports = {
       },
     ],
     'react/prop-types': 0,
+    'generator-star-spacing': ['error', { before: false, after: true }],
   },
-  'generator-star-spacing': ['error', { before: false, after: true }],
 };
