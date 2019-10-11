@@ -30,7 +30,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    indent: ['error', 2, { SwitchCase: 1 }],
+    indent: [1, 2, { SwitchCase: 1, ignoredNodes: ['TemplateLiteral > *'] }],
     'no-unused-vars': 0,
     'jsx-quotes': ['error', 'prefer-double'],
     // '@typescript-eslint/no-unused-vars': 'warn',
