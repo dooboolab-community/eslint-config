@@ -21,3 +21,9 @@ Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json
   "extends": "@dooboo/eslint-config"
 }
 ```
+
+## Changelog
+
+[0.3.0]
+
+- Upgrade typescript eslint parser to `2.11.0` to support typescript >= `3.7`
