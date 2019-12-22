@@ -35,6 +35,7 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-double'],
     // '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/interface-name-prefix': 0,
+    '@typescript-eslint/indent': ["error", 2],
     'no-console': 'warn',
     'react/jsx-uses-vars': [2],
     curly: ['error', 'multi-line'],
@@ -56,6 +57,7 @@ module.exports = {
       2,
       {
         ignoreCase: false,
+        ignoreDeclarationSort: false,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
       },
