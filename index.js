@@ -30,12 +30,18 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    indent: [1, 2, { SwitchCase: 1, ignoredNodes: ['TemplateLiteral > *'] }],
+    indent: 'off',
     'no-unused-vars': 0,
     'jsx-quotes': ['error', 'prefer-double'],
     // '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/interface-name-prefix': 0,
-    '@typescript-eslint/indent': ["error", 2],
+    '@typescript-eslint/indent': [
+      "error", 2,
+      {
+        SwitchCase: 1,
+        ignoredNodes: ['TemplateLiteral > *'],
+      },
+    ],
     'no-console': 'warn',
     'react/jsx-uses-vars': [2],
     curly: ['error', 'multi-line'],
