@@ -1,3 +1,9 @@
+[0.3.8]
+```
+ @typescript-eslint/eslint-plugin  ^2.20.0  →  ^2.21.0 
+ @typescript-eslint/parser         ^2.20.0  →  ^2.21.0 
+ babel-eslint                       10.0.3  →   10.1.0 
+```
 [0.3.7]
 ```
  @typescript-eslint/eslint-plugin  ^2.15.0  →  ^2.20.0 

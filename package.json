@@ -1,6 +1,6 @@
 {
   "name": "@dooboo/eslint-config",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "ESLint config for React & React Native",
   "main": "index.js",
   "repository": {
@@ -8,9 +8,9 @@
     "url": "git@github.com:dooboolab/eslint-config.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.20.0",
-    "@typescript-eslint/parser": "^2.20.0",
-    "babel-eslint": "10.0.3",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "babel-eslint": "10.1.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^11.0.0",
