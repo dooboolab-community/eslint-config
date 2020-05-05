@@ -39,10 +39,7 @@ module.exports = {
       "error", 2,
       {
         SwitchCase: 1,
-        ignoredNodes: ['TemplateLiteral > *'],
-      },
-      {
-        ignoredNodes: ['TSTypeParameterInstantiation']
+        ignoredNodes: ['TemplateLiteral > *', 'TSTypeParameterInstantiation'],
       },
     ],
     'no-console': 'warn',

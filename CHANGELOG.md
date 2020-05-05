@@ -1,3 +1,6 @@
+[0.4.1]
+Fix wrong config in `@typescript-eslint/indent`.
+
 [0.4.0]
 Fix generic typing indent.
 ```
