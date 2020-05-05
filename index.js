@@ -41,6 +41,9 @@ module.exports = {
         SwitchCase: 1,
         ignoredNodes: ['TemplateLiteral > *'],
       },
+      {
+        ignoredNodes: ['TSTypeParameterInstantiation']
+      },
     ],
     'no-console': 'warn',
     'react/jsx-uses-vars': [2],
