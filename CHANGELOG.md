@@ -1,3 +1,17 @@
+[0.4.0]
+Fix generic typing indent.
+```
+'@typescript-eslint/indent': [
+  "error", 2,
+  {
+    SwitchCase: 1,
+    ignoredNodes: ['TemplateLiteral > *'],
+  },
+  {
+    ignoredNodes: ['TSTypeParameterInstantiation']
+  },
+]
+```
 [0.3.8]
 ```
  @typescript-eslint/eslint-plugin  ^2.20.0  →  ^2.21.0 
