@@ -1,3 +1,12 @@
+[0.4.3]
+Upgrade packages.
+```
+ @typescript-eslint/eslint-plugin   ^3.0.0  →   ^3.5.0 
+ @typescript-eslint/parser          ^3.0.0  →   ^3.5.0 
+ eslint-plugin-import              ^2.20.2  →  ^2.22.0 
+ eslint-plugin-react               ^7.20.0  →  ^7.20.3 
+```
+
 [0.4.1]
 Fix wrong config in `@typescript-eslint/indent`.
 
