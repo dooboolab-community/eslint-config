@@ -1,3 +1,21 @@
+[0.5.0]
+Upgrade packages.
+```
+@typescript-eslint/eslint-plugin   ^3.5.0  →   ^3.9.1 
+@typescript-eslint/parser          ^3.5.0  →   ^3.9.1 
+eslint-plugin-react               ^7.20.3  →  ^7.20.6 
+```
+
+* Change rules
+  ```
+  'react/display-name': 0,
+  '@typescript-eslint/ban-ts-comment': 0,
+  '@typescript-eslint/explicit-function-return-type': [
+    'error',
+    { allowExpressions: true },
+  ],
+  ```
+
 [0.4.3]
 Upgrade packages.
 ```
