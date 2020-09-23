@@ -1,3 +1,11 @@
+[0.5.2]
+Upgrade packages.
+```
+@typescript-eslint/eslint-plugin   ^3.9.1  →   ^4.2.0
+@typescript-eslint/parser          ^3.9.1  →   ^4.2.0
+eslint-plugin-react               ^7.20.6  →  ^7.21.0
+```
+
 [0.5.1]
 Upgrade packages.
 ```
