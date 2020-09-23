@@ -1,3 +1,11 @@
+[0.5.3]
+
+Added below rule. Followed by the issue `React is already defined` in [typescript-eslint/issues/2502](https://github.com/typescript-eslint/typescript-eslint/issues/2502).
+```
+'no-use-before-define': [0],
+'@typescript-eslint/no-use-before-define': [1],
+```
+
 [0.5.2]
 Upgrade packages.
 ```

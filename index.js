@@ -32,6 +32,8 @@ module.exports = {
   rules: {
     indent: 'off',
     'no-unused-vars': 0,
+    'no-use-before-define': [0],
+    '@typescript-eslint/no-use-before-define': [1],
     'jsx-quotes': ['error', 'prefer-double'],
     // '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/interface-name-prefix': 0,
@@ -68,6 +70,8 @@ module.exports = {
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
       },
     ],
+    'no-use-before-define': [0],
+    '@typescript-eslint/no-use-before-define': [1],
     'space-before-function-paren': [
       'error',
       {
