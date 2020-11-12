@@ -1,3 +1,14 @@
+[0.5.5]
+Update packages.
+```
+@typescript-eslint/eslint-plugin   ^4.2.0  →   ^4.7.0
+@typescript-eslint/parser          ^4.2.0  →   ^4.7.0
+eslint-config-standard            ^14.1.1  →  ^16.0.1
+eslint-plugin-import              ^2.22.0  →  ^2.22.1
+eslint-plugin-react               ^7.21.0  →  ^7.21.5
+eslint-plugin-standard             ^4.0.1  →   ^4.1.0
+```
+
 [0.5.4]
 Add additional rules.
 ```
