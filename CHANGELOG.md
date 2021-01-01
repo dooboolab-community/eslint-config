@@ -1,3 +1,15 @@
+[0.6.1]
+Added below two rules that we usually extends. Especially for `camelcase`, since we use [relay](http://relay.dev), this is not suitable with the generated typings from [relay-runtime](https://www.npmjs.com/package/relay-runtime).
+
+```
+'@typescript-eslint/no-var-requires': 0,
+'react-native/no-inline-styles': 0,
+camelcase: 0,
+```
+
+[0.6.0]
+Extends `@react-native-community/eslint-config` for now.
+
 [0.5.8]
 Update packages.
 ```

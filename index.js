@@ -1,19 +1,5 @@
 module.exports = {
-  extends: [
-    'standard',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended',
-  ],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        '@typescript-eslint/explicit-function-return-type': ['error'],
-      },
-    },
-  ],
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  extends: '@react-native-community',
   settings: {
     react: {
       createClass: 'createReactClass',
@@ -30,15 +16,19 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    '@typescript-eslint/no-var-requires': 0,
+    'react-native/no-inline-styles': 0,
+    camelcase: 0,
     indent: 'off',
-    'no-unused-vars': 0,
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [1],
     'no-use-before-define': [0],
     '@typescript-eslint/no-use-before-define': [1],
     'jsx-quotes': ['error', 'prefer-double'],
-    // '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/interface-name-prefix': 0,
     '@typescript-eslint/indent': [
-      "error", 2,
+      'error',
+      2,
       {
         SwitchCase: 1,
         ignoredNodes: ['TemplateLiteral > *', 'TSTypeParameterInstantiation'],
@@ -61,15 +51,6 @@ module.exports = {
     'arrow-parens': ['error', 'always'],
     'no-new-object': 'error',
     'no-array-constructor': 'error',
-    'sort-imports': [
-      2,
-      {
-        ignoreCase: false,
-        ignoreDeclarationSort: false,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-      },
-    ],
     'no-use-before-define': [0],
     '@typescript-eslint/no-use-before-define': [1],
     'space-before-function-paren': [
@@ -81,7 +62,7 @@ module.exports = {
       },
     ],
     'react/prop-types': 0,
-    'generator-star-spacing': ['error', { before: false, after: true }],
+    'generator-star-spacing': ['error', {before: false, after: true}],
     'react/display-name': 0,
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/explicit-function-return-type': [
@@ -92,13 +73,13 @@ module.exports = {
     ],
     'padding-line-between-statements': [
       'warn',
-      { blankLine: 'always', prev: '*', next: 'return' },
+      {blankLine: 'always', prev: '*', next: 'return'},
       // Always require blank lines after directive (like 'use-strict'), except between directives
-      { blankLine: 'always', prev: 'directive', next: '*' },
-      { blankLine: 'any', prev: 'directive', next: 'directive' },
+      {blankLine: 'always', prev: 'directive', next: '*'},
+      {blankLine: 'any', prev: 'directive', next: 'directive'},
       // Always require blank lines after import, except between imports
-      { blankLine: 'always', prev: 'import', next: '*' },
-      { blankLine: 'any', prev: 'import', next: 'import' },
+      {blankLine: 'always', prev: 'import', next: '*'},
+      {blankLine: 'any', prev: 'import', next: 'import'},
       // Always require blank lines before and after every sequence of variable declarations and export
       {
         blankLine: 'always',
