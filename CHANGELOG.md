@@ -1,3 +1,7 @@
+[0.6.2]
+Removed `@typescript-eslint/indent` that overrides previous rule.
+Changed max code length from `120` to `140`. The generated typings tends to have long lengths.
+
 [0.6.1]
 Added below two rules that we usually extends. Especially for `camelcase`, since we use [relay](http://relay.dev), this is not suitable with the generated typings from [relay-runtime](https://www.npmjs.com/package/relay-runtime).
 

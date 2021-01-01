@@ -26,21 +26,13 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': [1],
     'jsx-quotes': ['error', 'prefer-double'],
     '@typescript-eslint/interface-name-prefix': 0,
-    '@typescript-eslint/indent': [
-      'error',
-      2,
-      {
-        SwitchCase: 1,
-        ignoredNodes: ['TemplateLiteral > *', 'TSTypeParameterInstantiation'],
-      },
-    ],
     'no-console': 'warn',
     'react/jsx-uses-vars': [2],
     curly: ['error', 'multi-line'],
     'max-len': [
       'error',
       {
-        code: 120,
+        code: 140,
         ignoreRegExpLiterals: true,
         ignoreComments: true,
         ignoreUrls: true,
