@@ -1,4 +1,4 @@
-[0.6.2]
+[0.6.3]
 Removed `@typescript-eslint/indent` that overrides previous rule.
 Changed max code length from `120` to `140`. The generated typings tends to have long lengths.
 
