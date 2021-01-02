@@ -1,3 +1,12 @@
+[0.6.5]
+Removed `react/jsx-uses-vars` and changed `curly` rule.
+```
+curly: ["error", "multi"]
+```
+- [Reference](https://eslint.org/docs/rules/curly)
+
+Added [default-param-last](https://eslint.org/docs/rules/default-param-last) rule.
+
 [0.6.3]
 Removed `@typescript-eslint/indent` that overrides previous rule.
 Changed max code length from `120` to `140`. The generated typings tends to have long lengths.

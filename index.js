@@ -27,8 +27,7 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-double'],
     '@typescript-eslint/interface-name-prefix': 0,
     'no-console': 'warn',
-    'react/jsx-uses-vars': [2],
-    curly: ['error', 'multi-line'],
+    curly: ["error", "multi"],
     'max-len': [
       'error',
       {
@@ -120,5 +119,7 @@ module.exports = {
         allowTaggedTemplates: true,
       },
     ],
+    'default-param-last': ['warn'],
   },
 };
+
