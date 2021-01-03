@@ -1,3 +1,12 @@
+### 0.6.10
+Install all related packages manually.
+```
+"@react-native-community/eslint-config": "^2.0.0",
+"@typescript-eslint/eslint-plugin": "^4.11.1",
+"@typescript-eslint/parser": "^4.11.1",
+"eslint": "^7",
+"prettier": "^2.2.1"
+```
 ### 0.6.9
 Manually installed typescript-eslint parser and plugin because those used in `react-native-community` is quite old.
 
