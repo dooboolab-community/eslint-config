@@ -15,13 +15,26 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module',
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+      plugins: ['@typescript-eslint/eslint-plugin'],
+      rules: {
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': ['warn', {
+           varsIgnorePattern: '^_',
+           argsIgnorePattern: '^_',
+           ignoreRestSiblings: true,
+         }],
+      },
+    },
+  ],
   rules: {
     '@typescript-eslint/no-var-requires': 0,
     'react-native/no-inline-styles': 0,
     camelcase: 0,
     indent: 'off',
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': [1],
     'no-use-before-define': [0],
     '@typescript-eslint/no-use-before-define': [1],
     'jsx-quotes': ['error', 'prefer-double'],
