@@ -1,3 +1,6 @@
+### 0.6.11
+Properly ignore `node_modules` from publishing.
+
 ### 0.6.10
 Install all related packages manually.
 ```
