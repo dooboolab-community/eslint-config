@@ -27,6 +27,8 @@ module.exports = {
            argsIgnorePattern: '^_',
            ignoreRestSiblings: true,
          }],
+         'no-shadow': 'off',
+         '@typescript-eslint/no-shadow': ['warn'],
       },
     },
   ],

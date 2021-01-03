@@ -1,3 +1,10 @@
+### 0.6.8
+Added below rule in typescript. There was a false positive issue when declaring typescript enum. [Related to typescript-eslint issue#2466](https://github.com/typescript-eslint/typescript-eslint/issues/2466)
+```
+'no-shadow': 'off',
+'@typescript-eslint/no-shadow': ['error'],
+```
+
 ### 0.6.7
 Changed `@typescript-eslint/no-unused-vars` to `warn` instead of `error`.
 
