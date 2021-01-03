@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-yarn add --dev eslint @dooboo/eslint-config
+yarn add -D eslint @dooboo/eslint-config
 ```
 
 > Note: We're using `yarn` to install deps. Feel free to change commands to use `npm` 3+ and `npx` if you like.

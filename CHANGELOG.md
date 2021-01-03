@@ -1,3 +1,8 @@
+### 0.6.9
+Manually installed typescript-eslint parser and plugin because those used in `react-native-community` is quite old.
+
+We are now using both version of `4.11.1` and Facebook still uses `3.1.0`. This version does not include `@typescript-eslint/no-shadow` rule.
+
 ### 0.6.8
 Added below rule in typescript. There was a false positive issue when declaring typescript enum. [Related to typescript-eslint issue#2466](https://github.com/typescript-eslint/typescript-eslint/issues/2466)
 ```
