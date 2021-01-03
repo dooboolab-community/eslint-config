@@ -1,3 +1,6 @@
+### 0.6.13
+Fixed react version warning. [Related](https://github.com/yannickcr/eslint-plugin-react/issues/1955#issuecomment-619475509).
+
 ### 0.6.12
 Removed settings because this is also used in projects other than react.
 ```

@@ -4,6 +4,11 @@ module.exports = {
     browser: true,
     jest: true,
   },
+  settings: {
+    react: {
+      version: 'latest',
+    },
+  },
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
