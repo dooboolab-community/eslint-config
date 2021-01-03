@@ -1,3 +1,15 @@
+### 0.6.12
+Removed settings because this is also used in projects other than react.
+```
+settings: {
+  react: {
+    createClass: 'createReactClass',
+    pragma: 'React',
+    version: 'detect',
+  },
+},
+```
+
 ### 0.6.11
 Properly ignore `node_modules` from publishing.
 

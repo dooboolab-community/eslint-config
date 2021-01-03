@@ -1,12 +1,5 @@
 module.exports = {
   extends: '@react-native-community',
-  settings: {
-    react: {
-      createClass: 'createReactClass',
-      pragma: 'React',
-      version: 'detect',
-    },
-  },
   env: {
     browser: true,
     jest: true,
