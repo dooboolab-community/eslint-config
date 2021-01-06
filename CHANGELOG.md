@@ -1,3 +1,6 @@
+### 0.6.14
+Removed `no-undef` rule since this isn't needed in `ts`.
+
 ### 0.6.13
 Fixed react version warning. [Related](https://github.com/yannickcr/eslint-plugin-react/issues/1955#issuecomment-619475509).
 
