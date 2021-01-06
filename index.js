@@ -133,6 +133,7 @@ module.exports = {
       },
     ],
     'default-param-last': ['warn'],
+    'no-undef': 0,
   },
 };
 
