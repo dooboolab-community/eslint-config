@@ -1,3 +1,10 @@
+### 0.6.15
+Updated packages.
+
+```
+@typescript-eslint/eslint-plugin  ^4.11.1  →  ^4.13.0
+@typescript-eslint/parser         ^4.11.1  →  ^4.13.0
+```
 ### 0.6.14
 Removed `no-undef` rule since this isn't needed in `ts`.
 
