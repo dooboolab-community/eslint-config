@@ -27,6 +27,12 @@ module.exports = {
          }],
          'no-shadow': 'off',
          '@typescript-eslint/no-shadow': ['warn'],
+         '@typescript-eslint/explicit-function-return-type': [
+          'error',
+          {
+            allowExpressions: true,
+          },
+        ],
       },
     },
   ],
@@ -69,12 +75,6 @@ module.exports = {
     'generator-star-spacing': ['error', {before: false, after: true}],
     'react/display-name': 0,
     '@typescript-eslint/ban-ts-comment': 0,
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      {
-        allowExpressions: true,
-      },
-    ],
     'padding-line-between-statements': [
       'warn',
       {blankLine: 'always', prev: '*', next: 'return'},
@@ -84,7 +84,6 @@ module.exports = {
       // Always require blank lines after import, except between imports
       {blankLine: 'always', prev: 'import', next: '*'},
       {blankLine: 'any', prev: 'import', next: 'import'},
-      // Always require blank lines before and after every sequence of variable declarations and export
       {
         blankLine: 'always',
         prev: '*',

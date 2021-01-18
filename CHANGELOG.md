@@ -1,3 +1,13 @@
+### 0.6.16
+Require explicit return type only on `ts` and `tsx` files.
+
+Updated packages.
+
+```
+@typescript-eslint/eslint-plugin  ^4.13.0  →  ^4.14.0
+@typescript-eslint/parser         ^4.13.0  →  ^4.14.0
+```
+
 ### 0.6.15
 Updated packages.
 
