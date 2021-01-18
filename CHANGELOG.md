@@ -1,3 +1,6 @@
+### 0.6.17
+Removed `eslint` and `prettier` from actual dependencies.
+
 ### 0.6.16
 Require explicit return type only on `ts` and `tsx` files.
 
