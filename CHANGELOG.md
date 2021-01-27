@@ -1,3 +1,14 @@
+### 0.6.18
+* Added new rule
+  ```
+  'no-duplicate-imports': 'error',
+  ```
+* Updated pacakges
+  ```
+  @typescript-eslint/eslint-plugin  ^4.14.0  →  ^4.14.1
+  @typescript-eslint/parser         ^4.14.0  →  ^4.14.1
+  ```
+
 ### 0.6.17
 Removed `eslint` and `prettier` from actual dependencies.
 
@@ -10,16 +21,6 @@ Updated packages.
 @typescript-eslint/eslint-plugin  ^4.13.0  →  ^4.14.0
 @typescript-eslint/parser         ^4.13.0  →  ^4.14.0
 ```
-### 0.6.16
-* Added new rule
-  ```
-  'no-duplicate-imports': 'error',
-  ```
-* Updated pacakges
-  ```
-  @typescript-eslint/eslint-plugin  ^4.13.0  →  ^4.14.1     
-  @typescript-eslint/parser         ^4.13.0  →  ^4.14.1     
-  ```
 
 ### 0.6.15
 Updated packages.
