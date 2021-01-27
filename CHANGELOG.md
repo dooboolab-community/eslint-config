@@ -1,3 +1,10 @@
+### 0.6.19
+* Enhance `0.6.18` new rule for typescript
+  ```
+  'no-duplicate-imports': 'off',
+  '@typescript-eslint/no-duplicate-imports': 'error',
+  ```
+
 ### 0.6.18
 * Added new rule
   ```
