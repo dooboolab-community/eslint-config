@@ -37,14 +37,12 @@ module.exports = {
         '@typescript-eslint/no-duplicate-imports': 'error',
       },
     },
-    overrides: [
-      {
-        files: ["*.json"],
-        rules: {
-          'prettier/prettier': 0,
-        },
+    {
+      files: ["*.json"],
+      rules: {
+        'prettier/prettier': 0,
       },
-    ],
+    },
   ],
   rules: {
     '@typescript-eslint/no-var-requires': 0,

@@ -1,4 +1,4 @@
-### 0.6.20
+### 0.6.21
 Removed `prettier/prettier` rule in `json` extension
 * Causing unexpected parse error.
 
