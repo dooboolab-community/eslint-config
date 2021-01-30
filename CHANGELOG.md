@@ -1,3 +1,7 @@
+### 0.6.20
+Removed `prettier/prettier` rule in `json` extension
+* Causing unexpected parse error.
+
 ### 0.6.19
 * Enhance `0.6.18` new rule for typescript
   ```
