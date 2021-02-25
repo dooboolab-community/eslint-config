@@ -1,3 +1,10 @@
+### 0.6.22
+Updated packages
+```
+@typescript-eslint/eslint-plugin  ^4.14.1  →  ^4.15.2
+@typescript-eslint/parser         ^4.14.1  →  ^4.15.2
+```
+
 ### 0.6.21
 Removed `prettier/prettier` rule in `json` extension
 * Causing unexpected parse error.
