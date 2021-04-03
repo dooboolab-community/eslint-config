@@ -1,3 +1,16 @@
+### 0.6.25
+Updated packages
+```
+ @typescript-eslint/eslint-plugin  ^4.17.0  →  ^4.20.0
+ @typescript-eslint/parser         ^4.17.0  →  ^4.20.0
+```
+
+### 0.6.24
+Updated packages
+```
+@typescript-eslint/eslint-plugin  ^4.16.1  →  ^4.17.0
+@typescript-eslint/parser         ^4.16.1  →  ^4.17.0
+```
 ### 0.6.24
 Updated packages
 ```
