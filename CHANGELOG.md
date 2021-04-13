@@ -1,39 +1,47 @@
-### 0.6.25
-Updated packages
+### 0.6.26
+Update packages
 ```
- @typescript-eslint/eslint-plugin  ^4.17.0  →  ^4.20.0
- @typescript-eslint/parser         ^4.17.0  →  ^4.20.0
+@typescript-eslint/eslint-plugin  ^4.20.0  →  ^4.22.0
+@typescript-eslint/parser         ^4.20.0  →  ^4.22.0
+```
+
+### 0.6.25
+Update packages
+```
+@typescript-eslint/eslint-plugin  ^4.17.0  →  ^4.20.0
+@typescript-eslint/parser         ^4.17.0  →  ^4.20.0
 ```
 
 ### 0.6.24
-Updated packages
+Update packages
 ```
 @typescript-eslint/eslint-plugin  ^4.16.1  →  ^4.17.0
 @typescript-eslint/parser         ^4.16.1  →  ^4.17.0
 ```
+
 ### 0.6.24
-Updated packages
+Update packages
 ```
 @typescript-eslint/eslint-plugin  ^4.16.1  →  ^4.17.0     
 @typescript-eslint/parser         ^4.16.1  →  ^4.17.0 
 ```
 
 ### 0.6.23
-Updated packages
+Update packages
 ```
 @typescript-eslint/eslint-plugin  ^4.15.2  →  ^4.16.1
 @typescript-eslint/parser         ^4.15.2  →  ^4.16.1
 ```
 
 ### 0.6.22
-Updated packages
+Update packages
 ```
 @typescript-eslint/eslint-plugin  ^4.14.1  →  ^4.15.2
 @typescript-eslint/parser         ^4.14.1  →  ^4.15.2
 ```
 
 ### 0.6.21
-Removed `prettier/prettier` rule in `json` extension
+Remove `prettier/prettier` rule in `json` extension
 * Causing unexpected parse error.
 
 ### 0.6.19
@@ -44,23 +52,23 @@ Removed `prettier/prettier` rule in `json` extension
   ```
 
 ### 0.6.18
-* Added new rule
+* Add new rule
   ```
   'no-duplicate-imports': 'error',
   ```
-* Updated pacakges
+* Update pacakges
   ```
   @typescript-eslint/eslint-plugin  ^4.14.0  →  ^4.14.1
   @typescript-eslint/parser         ^4.14.0  →  ^4.14.1
   ```
 
 ### 0.6.17
-Removed `eslint` and `prettier` from actual dependencies.
+Remove `eslint` and `prettier` from actual dependencies.
 
 ### 0.6.16
 Require explicit return type only on `ts` and `tsx` files.
 
-Updated packages.
+Update packages.
 
 ```
 @typescript-eslint/eslint-plugin  ^4.13.0  →  ^4.14.0
@@ -68,7 +76,7 @@ Updated packages.
 ```
 
 ### 0.6.15
-Updated packages.
+Update packages.
 
 ```
 @typescript-eslint/eslint-plugin  ^4.11.1  →  ^4.13.0
