@@ -47,6 +47,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-var-requires': 0,
     'react-native/no-inline-styles': 0,
+    'react/react-in-jsx-scope': 0,
     camelcase: 0,
     indent: 'off',
     'no-use-before-define': [0],
