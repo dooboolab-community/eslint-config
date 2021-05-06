@@ -45,6 +45,8 @@ module.exports = {
     },
   ],
   rules: {
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-var-requires': 0,
     'react-native/no-inline-styles': 0,
     'react/react-in-jsx-scope': 0,
