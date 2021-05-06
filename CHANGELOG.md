@@ -1,3 +1,10 @@
+### 0.7.1
+Update packages
+```
+ @typescript-eslint/eslint-plugin  ^4.22.0  →  ^4.22.1
+ @typescript-eslint/parser         ^4.22.0  →  ^4.22.1
+```
+
 ### 0.7.0
 Include `react/react-in-jsx-scope` since we no longer need to import `React` from version `17`. [Related issue](https://github.com/microsoft/TypeScript/issues/41882#issuecomment-750868003).
 
