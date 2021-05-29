@@ -1,3 +1,10 @@
+### 0.7.3
+Update packages
+```
+@typescript-eslint/eslint-plugin  ^4.22.1  →  ^4.25.0
+@typescript-eslint/parser         ^4.22.1  →  ^4.25.0
+```
+
 ### 0.7.2
 As described in [new jsx transform](https://ko.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint), add below rules.
 ```
