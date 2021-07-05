@@ -1,9 +1,18 @@
+### 0.8.0
+Add `eslint-plugin-prettier`.
+
+Update packages
+```
+@typescript-eslint/eslint-plugin  ^4.27.0  →  ^4.28.1
+@typescript-eslint/parser         ^4.27.0  →  ^4.28.1
+```
+
 ### 0.7.4
 Update packages
 ```
 @react-native-community/eslint-config   ^2.0.0  →   ^3.0.0
 @typescript-eslint/eslint-plugin       ^4.25.0  →  ^4.27.0
-@typescript-eslint/parser              ^4.25.0  →  ^4.27.
+@typescript-eslint/parser              ^4.25.0  →  ^4.27.0
 ```
 
 ### 0.7.3
