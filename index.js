@@ -49,11 +49,8 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-var-requires': 0,
     'react-native/no-inline-styles': 0,
-    'react/react-in-jsx-scope': 0,
     camelcase: 0,
     indent: 'off',
-    'no-use-before-define': [0],
-    '@typescript-eslint/no-use-before-define': [1],
     'jsx-quotes': ['error', 'prefer-double'],
     '@typescript-eslint/interface-name-prefix': 0,
     'no-console': 'warn',
@@ -99,29 +96,14 @@ module.exports = {
         next: ['const', 'let', 'var', 'export'],
       },
       {
-        blankLine: 'always',
-        prev: ['const', 'let', 'var', 'export'],
-        next: '*',
-      },
-      {
         blankLine: 'any',
         prev: ['const', 'let', 'var', 'export'],
         next: ['const', 'let', 'var', 'export'],
       },
       {
         blankLine: 'always',
-        prev: ['multiline-const', 'multiline-expression', 'multiline-let'],
-        next: '*',
-      },
-      {
-        blankLine: 'always',
         prev: '*',
         next: ['multiline-const', 'multiline-expression', 'multiline-let'],
-      },
-      {
-        blankLine: 'always',
-        prev: '*',
-        next: ['if', 'class', 'for', 'do', 'while', 'switch', 'try'],
       },
       {
         blankLine: 'always',
