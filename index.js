@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@react-native-community',
+  extends: ['@react-native-community', 'plugin:prettier/recommended'],
   env: {
     browser: true,
     jest: true,
