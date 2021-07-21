@@ -1,3 +1,9 @@
+### 0.8.2
+Update packages.
+```
+@typescript-eslint/eslint-plugin  ^4.28.2  →  ^4.28.4
+@typescript-eslint/parser         ^4.28.2  →  ^4.28.4 
+```
 ### 0.8.1
 Extend `plugin/prettier/recommended` rule.
 
