@@ -1,3 +1,14 @@
+### 0.8.4
+
+Update packages.
+
+```
+@typescript-eslint/eslint-plugin  ^4.29.3  →  ^4.30.0
+@typescript-eslint/parser         ^4.29.3  →  ^4.30.0
+eslint-plugin-prettier             ^3.4.1  →   ^4.0.0
+
+```
+
 ### 0.8.3
 
 Update packages.
