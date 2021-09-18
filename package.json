@@ -1,6 +1,6 @@
 {
   "name": "@dooboo/eslint-config",
-  "version": "0.8.4",
+  "version": "0.8.5",
   "description": "ESLint config for React & React Native that extends @react-native-community/eslint-config",
   "main": "index.js",
   "license": "MIT",
@@ -9,9 +9,9 @@
     "url": "git@github.com:dooboolab/eslint-config.git"
   },
   "dependencies": {
-    "@react-native-community/eslint-config": "^3.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.30.0",
-    "@typescript-eslint/parser": "^4.30.0",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
     "eslint-plugin-prettier": "^4.0.0"
   },
   "peerDependencies": {

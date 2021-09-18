@@ -1,3 +1,13 @@
+### 0.8.5
+
+Update packages.
+
+```
+@react-native-community/eslint-config   ^3.0.0  →   ^3.0.1
+@typescript-eslint/eslint-plugin       ^4.30.0  →  ^4.31.1
+@typescript-eslint/parser              ^4.30.0  →  ^4.31.1
+```
+
 ### 0.8.4
 
 Update packages.
@@ -6,7 +16,6 @@ Update packages.
 @typescript-eslint/eslint-plugin  ^4.29.3  →  ^4.30.0
 @typescript-eslint/parser         ^4.29.3  →  ^4.30.0
 eslint-plugin-prettier             ^3.4.1  →   ^4.0.0
-
 ```
 
 ### 0.8.3
