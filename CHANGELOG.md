@@ -1,3 +1,15 @@
+### 1.2.0
+
+Set `curly` to `all`.
+
+Update packages.
+
+```
+@react-native-community/eslint-config  ^2.0.0  →  ^3.0.1
+@typescript-eslint/eslint-plugin       ^5.1.0  →  ^5.2.0
+@typescript-eslint/parser              ^5.1.0  →  ^5.2.0
+```
+
 ### 1.0.0
 
 Update packages.
