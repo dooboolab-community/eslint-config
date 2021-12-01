@@ -1,3 +1,12 @@
+### 1.2.2
+
+Update packages.
+
+```
+@typescript-eslint/eslint-plugin  ^5.3.1  →  ^5.5.0
+@typescript-eslint/parser         ^5.3.1  →  ^5.5.0
+```
+
 ### 1.2.0
 
 Set `curly` to `all`.
