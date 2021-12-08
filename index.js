@@ -29,7 +29,6 @@ module.exports = {
           },
         ],
         "no-shadow": "off",
-        "@typescript-eslint/no-shadow": ["warn"],
         "@typescript-eslint/explicit-function-return-type": [
           "error",
           {
@@ -37,7 +36,6 @@ module.exports = {
           },
         ],
         "no-duplicate-imports": "off",
-        "@typescript-eslint/no-duplicate-imports": "error",
       },
     },
     {

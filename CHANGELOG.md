@@ -1,3 +1,10 @@
+### 1.2.4
+
+Remove rules.
+
+- @typescript-eslint/no-duplicate-imports
+- @typescript-eslint/no-shadow
+
 ### 1.2.3
 
 Update packages.
