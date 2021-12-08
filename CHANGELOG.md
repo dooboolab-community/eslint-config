@@ -1,3 +1,8 @@
+### 1.2.5
+
+Add rules back which was removed in `1.2.4`.
+
+
 ### 1.2.4
 
 Remove rules.
