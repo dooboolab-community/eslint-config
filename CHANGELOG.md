@@ -1,3 +1,13 @@
+### 1.2.3
+
+Update packages.
+
+```
+@typescript-eslint/eslint-plugin  ^5.5.0  →  ^5.6.0
+@typescript-eslint/parser         ^5.5.0  →  ^5.6.0
+```
+
+
 ### 1.2.2
 
 Update packages.
