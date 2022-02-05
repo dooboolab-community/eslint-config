@@ -1,3 +1,12 @@
+### 1.3.0
+
+No blank line if not one of "multiline-const", "multiline-expression", "multiline-let", "multiline-block-like", "multiline-var".
+
+```
+@typescript-eslint/eslint-plugin  ^5.10.0  →  ^5.10.2
+@typescript-eslint/parser         ^5.10.0  →  ^5.10.2
+```
+
 ### 1.2.6
 
 ```

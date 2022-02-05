@@ -105,8 +105,8 @@ module.exports = {
       },
       {
         blankLine: "always",
-        prev: "*",
-        next: ["multiline-const", "multiline-expression", "multiline-let"],
+        prev: ["multiline-const", "multiline-expression", "multiline-let", "multiline-block-like", "multiline-var"],
+        next: ["multiline-const", "multiline-expression", "multiline-let", "multiline-block-like", "multiline-var"],
       },
       {
         blankLine: "always",
