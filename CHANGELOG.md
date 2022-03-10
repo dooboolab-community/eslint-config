@@ -1,3 +1,7 @@
+### 1.3.3
+Change react version in `settings` to `detect`.
+- https://github.com/yannickcr/eslint-plugin-react/issues/1955#issuecomment-782568916
+
 ### 1.3.2
 ```
 @typescript-eslint/eslint-plugin  ^5.12.1  →  ^5.14.0
