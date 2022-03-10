@@ -1,3 +1,9 @@
+### 1.3.2
+```
+@typescript-eslint/eslint-plugin  ^5.12.1  →  ^5.14.0
+@typescript-eslint/parser         ^5.12.1  →  ^5.14.0 
+```
+
 ### 1.3.1
 ```
 @typescript-eslint/eslint-plugin  ^5.10.2  →  ^5.12.1
