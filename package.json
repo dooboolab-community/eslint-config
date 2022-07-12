@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@react-native-community/eslint-config": "^3.0.3",
-    "@typescript-eslint/eslint-plugin": "^5.30.0",
-    "@typescript-eslint/parser": "^5.30.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-prettier": "^4.2.1"
   },
