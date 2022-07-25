@@ -1,7 +1,7 @@
 {
-  "name": "@dooboo/eslint-config",
-  "version": "1.4.0",
-  "description": "ESLint config for React & React Native that extends @react-native-community/eslint-config",
+  "name": "@dooboo/eslint-config-react",
+  "version": "1.0.0",
+  "description": "ESLint config for React only",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -9,16 +9,17 @@
     "url": "git@github.com:dooboolab/eslint-config.git"
   },
   "dependencies": {
-    "@react-native-community/eslint-config": "^3.0.3",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.30.6",
-    "eslint-plugin-flowtype": "^8.0.3",
-    "eslint-plugin-prettier": "^4.2.1"
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "peerDependencies": {
     "eslint": ">=7",
-    "prettier": "*",
-    "eslint-plugin-jest": "*"
+    "prettier": "*"
   },
   "publishConfig": {
     "access": "public"
