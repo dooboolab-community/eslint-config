@@ -1,49 +1,15 @@
 module.exports = {
-  extends: [
-    '@react-native-community',
-    'plugin:prettier/recommended',
-    'plugin:jest/recommended',
-  ],
+  extends: ['plugin:prettier/recommended'],
   env: {
     browser: true,
     jest: true,
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
   parserOptions: {
-    ecmaVersion: 2017,
     sourceType: 'module',
+    ecmaVersion: 2017,
   },
+  plugins: ['eslint-comments'],
   overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      parser: '@typescript-eslint/parser',
-      plugins: ['@typescript-eslint/eslint-plugin'],
-      rules: {
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': [
-          'warn',
-          {
-            varsIgnorePattern: '^_',
-            argsIgnorePattern: '^_',
-            ignoreRestSiblings: true,
-          },
-        ],
-        'no-shadow': 'off',
-        '@typescript-eslint/no-shadow': ['warn'],
-        '@typescript-eslint/explicit-function-return-type': [
-          'error',
-          {
-            allowExpressions: true,
-          },
-        ],
-        'no-duplicate-imports': 'off',
-        '@typescript-eslint/no-duplicate-imports': 'error',
-      },
-    },
     {
       files: ['*.json'],
       rules: {
@@ -52,14 +18,9 @@ module.exports = {
     },
   ],
   rules: {
-    'react/jsx-uses-react': 'off',
-    'react/react-in-jsx-scope': 'off',
-    '@typescript-eslint/no-var-requires': 0,
-    'react-native/no-inline-styles': 0,
     camelcase: 0,
     indent: 'off',
     'jsx-quotes': ['error', 'prefer-double'],
-    '@typescript-eslint/interface-name-prefix': 0,
     'no-console': 'warn',
     curly: ['error', 'all'],
     'max-len': [
@@ -77,7 +38,6 @@ module.exports = {
     'no-new-object': 'error',
     'no-array-constructor': 'error',
     'no-use-before-define': [0],
-    '@typescript-eslint/no-use-before-define': [1],
     'space-before-function-paren': [
       'error',
       {
@@ -86,10 +46,7 @@ module.exports = {
         asyncArrow: 'always',
       },
     ],
-    'react/prop-types': 0,
     'generator-star-spacing': ['error', {before: false, after: true}],
-    'react/display-name': 0,
-    '@typescript-eslint/ban-ts-comment': 0,
     'padding-line-between-statements': [
       'warn',
       {blankLine: 'always', prev: '*', next: 'return'},
@@ -130,18 +87,13 @@ module.exports = {
         next: '*',
       },
     ],
-    '@typescript-eslint/no-empty-function': 0,
     'no-unused-expressions': 'off',
-    '@typescript-eslint/no-unused-expressions': [
-      'error',
-      {
-        allowShortCircuit: true,
-        allowTernary: true,
-        allowTaggedTemplates: true,
-      },
-    ],
     'default-param-last': ['warn'],
     'no-undef': 0,
     'no-duplicate-imports': 'error',
+    'eslint-comments/no-unlimited-disable': 0,
+    'eslint-comments/no-unused-disable': 0,
+    'jest/valid-expect-in-promise': 0,
+    'jest/no-standalone-expect': 0,
   },
 };
