@@ -1,0 +1,31 @@
+name: publish-package
+
+on:
+  workflow_dispatch:
+  release:
+    types: [created]
+    paths:
+      - "packages/react-native/**"
+
+jobs:
+  publish-npm-registry:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./packages/react-native
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@dooboo'
+
+      - name: Install modules
+        run: npm install
+
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

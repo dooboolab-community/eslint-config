@@ -66,6 +66,16 @@ importers:
       eslint-plugin-flowtype: 8.0.3
       eslint-plugin-prettier: 4.2.1
 
+  packages/svelte:
+    specifiers:
+      '@typescript-eslint/eslint-plugin': ^5.30.7
+      '@typescript-eslint/parser': ^5.30.7
+      eslint-plugin-svelte3: ^4.0.0
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 5.30.7_zwmln3xflnoizwz5t3zjekgqne
+      '@typescript-eslint/parser': 5.30.7
+      eslint-plugin-svelte3: 4.0.0
+
 packages:
 
   /@ampproject/remapping/2.2.0:
@@ -1075,6 +1085,13 @@ packages:
       resolve: 2.0.0-next.4
       semver: 6.3.0
       string.prototype.matchall: 4.0.7
+    dev: false
+
+  /eslint-plugin-svelte3/4.0.0:
+    resolution: {integrity: sha512-OIx9lgaNzD02+MDFNLw0GEUbuovNcglg+wnd/UY0fbZmlQSz7GlQiQ1f+yX0XvC07XPcDOnFcichqI3xCwp71g==}
+    peerDependencies:
+      eslint: '>=8.0.0'
+      svelte: ^3.2.0
     dev: false
 
   /eslint-scope/5.1.1:
