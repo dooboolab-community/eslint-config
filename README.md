@@ -1,23 +1,15 @@
-# @dooboo/eslint-config
+# ESLint Config
 
-[![Npm Version](http://img.shields.io/npm/v/@dooboo/eslint-config.svg?style=flat-square)](https://npmjs.org/package/@dooboo/eslint-config)
-[![Downloads](http://img.shields.io/npm/dm/@dooboo/eslint-config.svg?style=flat-square)](https://npmjs.org/package/@dooboo/eslint-config)
-=========
+> ESLint configuration for below projects.
 
-## Installation
+### Node.js
 
-```
-yarn add -D eslint @dooboo/eslint-config @typescript-eslint/eslint-plugin eslint-plugin-jest
-```
+[See package](node/README.md)
 
-> Note: We're using `yarn` to install deps. Feel free to change commands to use `npm` 3+ and `npx` if you like.
+### React Native
 
-## Usage
+[See package](react-native/README.md)
 
-Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json`):
+### React
 
-```
-{
-  "extends": "@dooboo/eslint-config"
-}
-```
+[See package](react/README.md)
