@@ -21,3 +21,12 @@ Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json
   "extends": "@dooboo/eslint-config-react"
 }
 ```
+
+### For yarn berry user
+
+Extra installation required for user who use yarn berry (pnp).
+They do not install dependencies in packages.
+
+```
+yarn add -D eslint-config-prettier eslint-plugin-prettier eslint-plugin-eslint-comments eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
