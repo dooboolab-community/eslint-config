@@ -20,6 +20,7 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint/eslint-plugin'],
       rules: {
+        '@typescript-eslint/consistent-type-imports': 'warn',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': [
           'warn',
