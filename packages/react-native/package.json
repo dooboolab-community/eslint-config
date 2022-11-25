@@ -1,6 +1,6 @@
 {
   "name": "@dooboo/eslint-config-react-native",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint config for React & React Native that extends @react-native-community/eslint-config",
   "main": "index.js",
   "license": "MIT",

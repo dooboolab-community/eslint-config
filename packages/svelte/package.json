@@ -1,6 +1,6 @@
 {
   "name": "@dooboo/eslint-config-svelte",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Svelte eslint config",
   "main": "index.js",
   "scripts": {
