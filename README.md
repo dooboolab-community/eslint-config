@@ -25,9 +25,3 @@
 [![Npm Version](http://img.shields.io/npm/v/@dooboo/eslint-config-svelte.svg?style=flat-square)](https://npmjs.org/package/@dooboo/eslint-config-svelte)
 
 [See package](packages/svelte/README.md)
-
-### Remix
-
-[![Npm Version](http://img.shields.io/npm/v/@dooboo/eslint-config-svelte.svg?style=flat-square)](https://npmjs.org/package/@dooboo/eslint-config-remix)
-
-[See package](packages/remix/README.md)
