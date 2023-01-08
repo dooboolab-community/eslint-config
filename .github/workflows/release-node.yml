@@ -1,4 +1,4 @@
-name: publish-package
+name: publish-node
 
 on:
   workflow_dispatch:

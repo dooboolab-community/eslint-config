@@ -1,4 +1,4 @@
-name: publish-package
+name: publish-remix
 
 on:
   workflow_dispatch:

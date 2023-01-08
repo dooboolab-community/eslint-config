@@ -1,4 +1,4 @@
-name: publish-package
+name: publish-react-native
 
 on:
   workflow_dispatch:
