@@ -17,7 +17,6 @@ module.exports = {
         },
         warnOnUnsupportedTypeScriptVersion: true,
       },
-      plugins: ['@typescript-eslint/eslint-plugin'],
       rules: {
         '@typescript-eslint/consistent-type-imports': 'warn',
         'no-unused-vars': 'off',
