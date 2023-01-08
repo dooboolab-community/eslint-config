@@ -1,6 +1,6 @@
 {
   "name": "@dooboo/eslint-config-remix",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint config for Remix only",
   "main": "index.js",
   "license": "MIT",
