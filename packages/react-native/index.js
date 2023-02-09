@@ -1,7 +1,8 @@
 module.exports = {
   extends: [
-    '@tsconfig/react-native/tsconfig.json',
+    '@react-native-community',
     'plugin:prettier/recommended',
+    'plugin:jest/recommended',
   ],
   env: {
     browser: true,
