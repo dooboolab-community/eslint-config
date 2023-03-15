@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-yarn add -D eslint @dooboo/eslint-config-react-native @typescript-eslint/eslint-plugin eslint-plugin-jest
+yarn add -D eslint @dooboo/eslint-config-react-native @typescript-eslint/eslint-plugin eslint-plugin-jest prettier
 ```
 
 > Note: We're using `yarn` to install deps. Feel free to change commands to use `npm` 3+ and `npx` if you like.

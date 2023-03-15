@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-yarn add -D eslint @dooboo/eslint-config-remix
+yarn add -D eslint @dooboo/eslint-config-remix prettier
 ```
 
 > Note: We're using `yarn` to install deps. Feel free to change commands to use `npm` 3+ and `npx` if you like.
@@ -28,5 +28,5 @@ Extra installation required for user who use yarn berry (pnp).
 They do not install dependencies in packages.
 
 ```
-yarn add -D eslint-config-prettier eslint-plugin-prettier eslint-plugin-eslint-comments eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser @remix-run/eslint-config eslint-plugin-node
+yarn add -D prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-eslint-comments eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser @remix-run/eslint-config eslint-plugin-node
 ```

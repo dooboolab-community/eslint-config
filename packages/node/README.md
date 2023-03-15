@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-yarn add -D eslint @dooboo/eslint-config-node
+yarn add -D eslint @dooboo/eslint-config-node prettier
 ```
 
 > Note: We're using `yarn` to install deps. Feel free to change commands to use `npm` 3+ and `npx` if you like.
@@ -28,5 +28,5 @@ Extra installation required for user who use yarn berry (pnp).
 They do not install dependencies in packages.
 
 ```
-yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-eslint-comments eslint-plugin-prettier
+yarn add -D prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-eslint-comments eslint-plugin-prettier
 ```

@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-yarn add -D @dooboo/eslint-config-svelte
+yarn add -D @dooboo/eslint-config-svelte prettier
 ```
 
 ## Usage
@@ -24,5 +24,5 @@ They do not install dependencies in packages.
 ```
 yarn add -D @typescript-eslint/eslint-plugin 
 @typescript-eslint/parser
-eslint-plugin-svelte3
+eslint-plugin-svelte3 prettier
 ```
