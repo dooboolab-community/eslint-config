@@ -25,3 +25,45 @@
 [![Npm Version](http://img.shields.io/npm/v/@dooboo/eslint-config-svelte.svg?style=flat-square)](https://npmjs.org/package/@dooboo/eslint-config-svelte)
 
 [See package](packages/svelte/README.md)
+
+### Recommendation
+
+#### `.prettierrc.js`
+
+```
+module.exports = {
+  trailingComma: "all",
+  arrowParens: "always",
+  singleQuote: true,
+  jsxSingleQuote: false,
+  bracketSpacing: false,
+};
+```
+
+#### `.vscode/settings.json`
+```
+{
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "prettier.configPath": ".prettierrc.js",
+}
+```
