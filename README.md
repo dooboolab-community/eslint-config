@@ -67,3 +67,8 @@ module.exports = {
   "prettier.configPath": ".prettierrc.js",
 }
 ```
+
+#### For yarn berry user
+```
+yarn dlx @yarnpkg/sdks vscode
+```
