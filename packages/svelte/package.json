@@ -1,14 +1,14 @@
 {
   "name": "@dooboo/eslint-config-svelte",
-  "version": "1.0.4",
+  "version": "1.1.2",
   "description": "Svelte eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update-deps": "npx npm-check-updates -u && pnpm install"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.44.0",
-    "@typescript-eslint/parser": "^5.44.0",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
     "eslint-plugin-svelte3": "^4.0.0"
   },
   "repository": {
