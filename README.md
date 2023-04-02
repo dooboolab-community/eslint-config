@@ -48,7 +48,8 @@ module.exports = {
     "typescript"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": false,
+    "source.fixAll.eslint": false
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
