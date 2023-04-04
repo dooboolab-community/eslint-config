@@ -27,12 +27,14 @@ importers:
       eslint-config-prettier: ^8.8.0
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-prettier: ^4.2.1
+      eslint-plugin-simple-import-sort: ^10.0.0
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.56.0_6pbktzf24qc5a6dtgnl76m6aru
       '@typescript-eslint/parser': 5.56.0
       eslint-config-prettier: 8.8.0
       eslint-plugin-eslint-comments: 3.2.0
       eslint-plugin-prettier: 4.2.1_oaez6fkrrb5zzrowm57o6j34fq
+      eslint-plugin-simple-import-sort: 10.0.0
 
   packages/react:
     specifiers:
@@ -43,6 +45,7 @@ importers:
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-react: ^7.32.2
       eslint-plugin-react-hooks: ^4.6.0
+      eslint-plugin-simple-import-sort: ^10.0.0
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.56.0_6pbktzf24qc5a6dtgnl76m6aru
       '@typescript-eslint/parser': 5.56.0
@@ -51,6 +54,7 @@ importers:
       eslint-plugin-prettier: 4.2.1_oaez6fkrrb5zzrowm57o6j34fq
       eslint-plugin-react: 7.32.2
       eslint-plugin-react-hooks: 4.6.0
+      eslint-plugin-simple-import-sort: 10.0.0
 
   packages/react-native:
     specifiers:
@@ -59,12 +63,14 @@ importers:
       '@typescript-eslint/parser': ^5.56.0
       eslint-plugin-flowtype: ^8.0.3
       eslint-plugin-prettier: ^4.2.1
+      eslint-plugin-simple-import-sort: ^10.0.0
     dependencies:
       '@react-native-community/eslint-config': 3.2.0
       '@typescript-eslint/eslint-plugin': 5.56.0_6pbktzf24qc5a6dtgnl76m6aru
       '@typescript-eslint/parser': 5.56.0
       eslint-plugin-flowtype: 8.0.3
       eslint-plugin-prettier: 4.2.1
+      eslint-plugin-simple-import-sort: 10.0.0
 
   packages/remix:
     specifiers:
@@ -77,6 +83,7 @@ importers:
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-react: ^7.32.2
       eslint-plugin-react-hooks: ^4.6.0
+      eslint-plugin-simple-import-sort: ^10.0.0
     dependencies:
       '@remix-run/eslint-config': 1.14.3
       '@typescript-eslint/eslint-plugin': 5.56.0_6pbktzf24qc5a6dtgnl76m6aru
@@ -87,15 +94,18 @@ importers:
       eslint-plugin-prettier: 4.2.1_oaez6fkrrb5zzrowm57o6j34fq
       eslint-plugin-react: 7.32.2
       eslint-plugin-react-hooks: 4.6.0
+      eslint-plugin-simple-import-sort: 10.0.0
 
   packages/svelte:
     specifiers:
       '@typescript-eslint/eslint-plugin': ^5.56.0
       '@typescript-eslint/parser': ^5.56.0
+      eslint-plugin-simple-import-sort: ^10.0.0
       eslint-plugin-svelte3: ^4.0.0
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.56.0_6pbktzf24qc5a6dtgnl76m6aru
       '@typescript-eslint/parser': 5.56.0
+      eslint-plugin-simple-import-sort: 10.0.0
       eslint-plugin-svelte3: 4.0.0
 
 packages:
@@ -1740,6 +1750,12 @@ packages:
       resolve: 2.0.0-next.4
       semver: 6.3.0
       string.prototype.matchall: 4.0.8
+    dev: false
+
+  /eslint-plugin-simple-import-sort/10.0.0:
+    resolution: {integrity: sha512-AeTvO9UCMSNzIHRkg8S6c3RPy5YEwKWSQPx3DYghLedo2ZQxowPFLGDN1AZ2evfg6r6mjBSZSLxLFsWSu3acsw==}
+    peerDependencies:
+      eslint: '>=5.0.0'
     dev: false
 
   /eslint-plugin-svelte3/4.0.0:

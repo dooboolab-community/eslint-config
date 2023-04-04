@@ -8,13 +8,27 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 2017,
   },
-  plugins: ['eslint-comments'],
+  plugins: ['eslint-comments', 'simple-import-sort'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint/eslint-plugin'],
       rules: {
+        'eslint-comments/no-unlimited-disable': 0,
+        'eslint-comments/no-unused-disable': 0,
+        'prettier/prettier': 'error',
+        'simple-import-sort/imports': [
+          'error',
+          {
+            groups: [
+              ['^\\u0000'],
+              ['^react', '^@?\\w'],
+              ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+              ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+            ],
+          },
+        ],
         '@typescript-eslint/consistent-type-imports': 'warn',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': [
@@ -131,8 +145,6 @@ module.exports = {
     'default-param-last': ['warn'],
     'no-undef': 0,
     'no-duplicate-imports': 'error',
-    'eslint-comments/no-unlimited-disable': 0,
-    'eslint-comments/no-unused-disable': 0,
     'jest/valid-expect-in-promise': 0,
     'jest/no-standalone-expect': 0,
   },

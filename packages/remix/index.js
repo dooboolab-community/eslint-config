@@ -4,7 +4,7 @@ module.exports = {
     '@remix-run/eslint-config',
     '@remix-run/eslint-config/node',
   ],
-  plugins: ['eslint-comments'],
+  plugins: ['eslint-comments', 'simple-import-sort'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
@@ -148,6 +148,17 @@ module.exports = {
       'warn',
       {
         additionalHooks: 'useRecoilCallback',
+      },
+    ],
+    'simple-import-sort/imports': [
+      'error',
+      {
+        groups: [
+          ['^\\u0000'],
+          ['^react', '^@?\\w'],
+          ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+          ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+        ],
       },
     ],
   },
