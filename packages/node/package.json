@@ -1,6 +1,6 @@
 {
   "name": "@dooboo/eslint-config-node",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "ESLint config for Node only",
   "main": "index.js",
   "license": "MIT",
