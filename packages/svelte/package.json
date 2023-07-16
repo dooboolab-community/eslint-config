@@ -1,14 +1,16 @@
 {
   "name": "@dooboo/eslint-config-svelte",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "Svelte eslint config",
   "main": "index.js",
   "scripts": {
+    "include": "pnpm install",
     "update-deps": "ncu -u && pnpm install"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-svelte3": "^4.0.0"
   },

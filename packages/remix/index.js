@@ -4,7 +4,7 @@ module.exports = {
     '@remix-run/eslint-config',
     '@remix-run/eslint-config/node',
   ],
-  plugins: ['eslint-comments', 'simple-import-sort'],
+  plugins: ['eslint-comments', 'simple-import-sort', 'import'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
@@ -37,7 +37,7 @@ module.exports = {
           },
         ],
         'no-duplicate-imports': 'off',
-        '@typescript-eslint/no-duplicate-imports': 'error',
+        "import/no-duplicates": ["error", {"prefer-inline": false}],
       },
     },
     {
