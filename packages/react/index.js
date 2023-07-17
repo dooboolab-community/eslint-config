@@ -13,7 +13,13 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 2017,
   },
-  plugins: ['eslint-comments', 'react', 'react-hooks', 'simple-import-sort', 'import'],
+  plugins: [
+    'eslint-comments',
+    'react',
+    'react-hooks',
+    'simple-import-sort',
+    'import',
+  ],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
@@ -53,7 +59,7 @@ module.exports = {
           },
         ],
         'no-duplicate-imports': 'off',
-        "import/no-duplicates": ["error", {"prefer-inline": false}],
+        'import/no-duplicates': ['error', {'prefer-inline': false}],
       },
     },
     {

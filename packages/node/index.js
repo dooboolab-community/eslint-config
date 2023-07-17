@@ -48,7 +48,7 @@ module.exports = {
           },
         ],
         'no-duplicate-imports': 'off',
-        "import/no-duplicates": ["error", {"prefer-inline": false}]
+        'import/no-duplicates': ['error', {'prefer-inline': false}],
       },
     },
     {

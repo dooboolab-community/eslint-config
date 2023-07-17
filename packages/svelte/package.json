@@ -4,18 +4,14 @@
   "description": "Svelte eslint config",
   "main": "index.js",
   "scripts": {
-    "include": "pnpm install",
-    "update-deps": "ncu -u && pnpm install"
+    "include": "pnpm install"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-svelte3": "^4.0.0"
-  },
-  "devDependencies": {
-    "npm-check-updates": "^16.10.15"
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-simple-import-sort": "latest",
+    "eslint-plugin-svelte3": "latest"
   },
   "repository": {
     "type": "git",
@@ -27,12 +23,12 @@
     "config",
     "theme"
   ],
-  "author": "dooboolab <support@dooboolab.com>",
+  "author": "dooboolab <dev@dooboolab.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wecount-dev/eslint-config-svelte/issues"
+    "url": "https://github.com/dooboolab-community/eslint-config/issues"
   },
-  "homepage": "https://github.com/wecount-dev/eslint-config-svelte#readme",
+  "homepage": "https://github.com/dooboolab-community/eslint-config#readme",
   "peerDependencies": {
     "eslint": ">=7",
     "prettier": "*"

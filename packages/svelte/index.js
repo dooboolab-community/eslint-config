@@ -23,7 +23,11 @@ module.exports = {
     {
       files: ['*.ts'],
       parser: '@typescript-eslint/parser',
-      plugins: ['@typescript-eslint/eslint-plugin', 'simple-import-sort', 'import'],
+      plugins: [
+        '@typescript-eslint/eslint-plugin',
+        'simple-import-sort',
+        'import',
+      ],
       rules: {
         '@typescript-eslint/consistent-type-imports': 'warn',
         'no-unused-vars': 'off',
@@ -44,7 +48,7 @@ module.exports = {
           },
         ],
         'no-duplicate-imports': 'off',
-        "import/no-duplicates": ["error", {"prefer-inline": false}],
+        'import/no-duplicates': ['error', {'prefer-inline': false}],
       },
     },
   ],

@@ -1,26 +1,24 @@
 {
   "name": "@dooboo/eslint-config-node",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "ESLint config for node.js",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "include": "pnpm install",
-    "update-deps": "ncu -u && pnpm install"
+    "include": "pnpm install"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:dooboolab/eslint-config.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "npm-check-updates": "^16.10.15"
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-eslint-comments": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-simple-import-sort": "latest"
   },
   "peerDependencies": {
     "eslint": ">=7",
