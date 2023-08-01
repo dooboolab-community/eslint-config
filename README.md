@@ -20,12 +20,6 @@
 
 [See package](packages/react/README.md)
 
-### Svelte
-
-[![Npm Version](http://img.shields.io/npm/v/@dooboo/eslint-config-svelte.svg?style=flat-square)](https://npmjs.org/package/@dooboo/eslint-config-svelte)
-
-[See package](packages/svelte/README.md)
-
 ### Recommendation
 
 #### `.prettierrc.js`
