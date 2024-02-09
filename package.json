@@ -14,6 +14,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "eslint-plugin-simple-import-sort": "^10.0.0"
+    "eslint-plugin-simple-import-sort": "^11.0.0"
   }
 }
