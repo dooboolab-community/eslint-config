@@ -1,6 +1,6 @@
 {
   "name": "@dooboo/eslint-config-react",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "ESLint config for React only",
   "main": "index.js",
   "license": "MIT",
